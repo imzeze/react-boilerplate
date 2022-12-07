@@ -1,4 +1,4 @@
-import React from 'react';
+import { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 
 const root = ReactDOM.createRoot(
@@ -6,7 +6,7 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-  <React.StrictMode>
+  <StrictMode>
     <>Hi</>
-  </React.StrictMode>,
+  </StrictMode>,
 );

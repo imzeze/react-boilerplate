@@ -18,6 +18,8 @@
   "plugins": ["react", "@typescript-eslint", "prettier", "simple-import-sort"],
   "rules": {
     "prettier/prettier": "error",
+    "react/react-in-jsx-scope": 0,
+    "react/jsx-uses-react": 0,
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error"
   }
