@@ -1,5 +1,15 @@
+import { css } from '@emotion/react';
+
 const App = () => {
-  return <div>Hello</div>;
+  return (
+    <h1
+      css={css`
+        color: #087268;
+      `}
+    >
+      hello
+    </h1>
+  );
 };
 
 export default App;
